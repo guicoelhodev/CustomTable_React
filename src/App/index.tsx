@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { CustomerRow } from "../components/rows/customerRow";
 import { UserRow } from "../components/rows/userRow";
-import { Table } from "../components/TableUser";
+import { Table } from "../components/Table";
 import { Tabs } from "../components/Tabs";
 import { usersData } from "../data/example1/usersData";
 import { usersTable } from "../data/example1/usersTable";
