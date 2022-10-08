@@ -8,9 +8,9 @@
 <br/>
 
 <ul>
-  <li><a href="disclaimer"><h3>Disclaimer!</h3></a></li>
-  <li><a href="howWorks"><h3>How it works?</h3></a></li>
-  <li><a href="useIt"><h3>How to use?</h3></a></li>
+  <a href="disclaimer"><p>Disclaimer!</p></a>
+  <a href="howWorks"><p>How it works?</p></a>
+  <a href="useIt"><p>How to use?</p></a>
 </ul>
 
 <br />
