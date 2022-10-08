@@ -172,4 +172,4 @@ const [ currentKey, setCurrentKey] = useState(yourData[0].yourFirstKey);
 
 <p>Use sortObjectArray with return of sort callback</p>
 
-<a href="https://github.com/GuiCoelho-S" target="_blank" align="right"><h3>Develop by Gui Coelho (frontend developer)</h3></a>
+<h3><a href="https://github.com/GuiCoelho-S" target="_blank" align="right">Develop by Gui Coelho (frontend developer)</a></h3>
