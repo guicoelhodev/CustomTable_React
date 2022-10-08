@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { CustomerRow } from "../components/rows/customerRow";
 import { UserRow } from "../components/rows/userRow";
-import { TableUser } from "../components/TableUser";
+import { Table } from "../components/TableUser";
 import { Tabs } from "../components/Tabs";
 import { usersData } from "../data/example1/usersData";
 import { usersTable } from "../data/example1/usersTable";
@@ -36,7 +36,7 @@ export const App: React.FC = () => {
       <S.Main>
         {currentTab === "example1" && (
           <S.UserContainer>
-            <TableUser
+            <Table
               minWidth="900px"
               columnsValues={usersTable}
               columnsStyle="1fr 100px repeat(3, 1fr)"
@@ -44,12 +44,12 @@ export const App: React.FC = () => {
               {usersData.map((user) => (
                 <UserRow {...(user as any)} />
               ))}
-            </TableUser>
+            </Table>
           </S.UserContainer>
         )}
         {currentTab === "example2" && (
           <S.CustomersContainer>
-            <TableUser
+            <Table
               minWidth="900px"
               columnsValues={customersColumns}
               setColumns={setCustomersColumns}
@@ -68,7 +68,7 @@ export const App: React.FC = () => {
                 .map((user) => (
                   <CustomerRow {...(user as any)} />
                 ))}
-            </TableUser>
+            </Table>
           </S.CustomersContainer>
         )}
       </S.Main>
