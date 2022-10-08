@@ -6,7 +6,6 @@ interface IStyledTable {
 }
 
 export const Container = styled.div<IStyledTable>`
-  position: relative;
   margin: 0 auto;
   min-width: ${({ minWidth }) => (minWidth ? minWidth : "none")};
   width: 100%;
