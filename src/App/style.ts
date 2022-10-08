@@ -37,3 +37,13 @@ export const CustomersContainer = styled.div`
   border: 1px solid #333;
   overflow-x: scroll;
 `;
+
+export const DocAnchor = styled.a`
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 2rem 2rem 0 2rem;
+  font-size: 1.2rem;
+
+  color: #333;
+`;

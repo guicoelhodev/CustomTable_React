@@ -25,6 +25,12 @@ export const App: React.FC = () => {
 
   return (
     <S.Container>
+      <S.DocAnchor
+        href="https://github.com/GuiCoelho-S/CustomTable_React"
+        target="_blank"
+      >
+        See the docs
+      </S.DocAnchor>
       <header>
         <Tabs
           currentTab={currentTab}
