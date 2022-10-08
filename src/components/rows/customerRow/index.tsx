@@ -20,7 +20,11 @@ export const CustomerRow: React.FC<IPropsCustomer> = (customer) => {
   return (
     <S.Container>
       <S.UserContainer>
-        <img src={customer.avatar} alt="just a simple avatar image" />
+        <img
+          src={customer.avatar}
+          alt="just a simple avatar image"
+          loading="lazy"
+        />
         <p>{customer.name}</p>
       </S.UserContainer>
 
